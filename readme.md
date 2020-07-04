@@ -21,12 +21,12 @@ returned and code is displayed on the right
 ## Installation
 Clone the repository into your custom oh-my-zsh themes directory:
 ```shell
-$ git clone https://github.com/reobin/typewritten.git $ZSH_CUSTOM/themes/typewritten
+$ git clone https://github.com/ventris/typo.git $ZSH_CUSTOM/themes/typo
 ```
 
 Symlink ``typewritten.zsh-theme`` to your oh-my-zsh custom themes directory:
 ```shell
-ln -s "$ZSH_CUSTOM/themes/typewritten/typewritten.zsh-theme" "$ZSH_CUSTOM/themes/typewritten.zsh-theme"
+ln -s "$ZSH_CUSTOM/themes/typewritten/typo.zsh-theme" "$ZSH_CUSTOM/themes/typo.zsh-theme"
 ```
 
-Set ``ZSH_THEME="typewritten/typewritten"`` in your ``.zshrc``.
+Set ``ZSH_THEME="typo/typo"`` in your ``.zshrc``.

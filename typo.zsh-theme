@@ -31,7 +31,10 @@ local user_host='%{$fg[yellow]%}%n%{$reset_color%}@%{$fg[yellow]%}%m %{$reset_co
 local prompt='%(?,%{$fg[blue]%}> ,%{$fg[red]%}> )'
 
 # current directory display
-local directory_path='%{$fg[magenta]%}%c'
+local directory_path='%{$fg[magenta]%} %c%{$reset_color%}'
+
+# clock
+local clock=' %{$fg[blue]%}[%D{%H:%M:%S}]%{$reset_color%}'
 
 # last command return code
 local return_code='%(?,,%{$fg[red]%} RC=%?%{$reset_color%})'
@@ -51,6 +54,7 @@ fi
 RPROMPT="${directory_path}"
 RPROMPT+="${git_info}"
 RPROMPT+="${return_code}"
+#RPROMPT+="${clock}"
 
 # prompt cursor fix when exiting vim
 _fix_cursor() {

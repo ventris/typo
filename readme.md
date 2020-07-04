@@ -1,9 +1,4 @@
-# ``>_`` typewritten - a minimal, informative zsh prompt theme
-
-Leaves all the room for what's important.
-<img align="center" src="https://raw.githubusercontent.com/reobin/typewritten/master/media/demo.gif" alt="video" />
-
-> Terminal is [iTerm2](https://iterm2.com/) — Font is [FiraCode](https://github.com/tonsky/FiraCode) — Terminal theme is [SpaceCamp](https://github.com/reobin/spacecamp-iterm)
+# typo - fork of typewritten zsh theme
 
 ## Features
 - Current directory
@@ -35,16 +30,3 @@ ln -s "$ZSH_CUSTOM/themes/typewritten/typewritten.zsh-theme" "$ZSH_CUSTOM/themes
 ```
 
 Set ``ZSH_THEME="typewritten/typewritten"`` in your ``.zshrc``.
-
-## Multiline option
-Multiline is now supported thanms to [@thbe](https://github.com/thbe). Add this option to your ``.zshrc``:
-```shell
-TYPEWRITTEN_MULTILINE=true
-```
-
-## Screenshots
-Multiline
-<img src="https://raw.githubusercontent.com/reobin/typewritten/master/media/multiline.png" alt="multiline" />
-
-Return code
-<img src="https://raw.githubusercontent.com/reobin/typewritten/master/media/return_code.png" alt="return code" />
